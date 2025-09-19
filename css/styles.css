@@ -3,17 +3,24 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
+    align-items: stretch;
+    flex-wrap: wrap;
+
 }
-.tarjeta {
-    width: 400px;
-    height: 650px;
+.tarjeta{
+    width: 300px;
+    height: 529px;
     border: 1px black;
-    border-radius: 10px;
+    border-radius: 12px;
     box-shadow: 1px 5px lightgrey;
     position:relative;
     margin: 25px;
     text-align: center;
     display: inline-block;
+    padding: 16px 8px;
+    flex-direction: column;
+    vertical-align: top;
+    
 }
 .portadatarjeta{
     border-radius: 10px 10px 0 0;
@@ -22,17 +29,18 @@
 }
 div.textotarjeta{
     position: relative;
-    text-align: center;
+    text-align: left;
     margin:10px;
     padding: 10px;
+    font-size: 16px;
 }
 .perfil{
     position:absolute;
-    top: -70px;
+    top: -60px;
     border-radius: 50%;
     width: 75px;
     height: 75px;
-    left:40%;
+    left:35%;
 }
 .icono{
     font-size: 30px;
@@ -70,7 +78,7 @@ button {
     padding: 20px;
     margin-top: 30px;
     color: white;
-    font-family: monospace;
+    font-family: roboto,monospace;
     font-size: 20px;
     font-weight: bold;
     background-color: #00669F;
@@ -79,4 +87,3 @@ footer {
     background-color: #00669F;
     color:white;
 }
-
